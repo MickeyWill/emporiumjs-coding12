@@ -1,7 +1,7 @@
+@import "./_variable.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./_fonts";
-@import "./_variables";
-@import "./_icones";
+@import "./_fonts.scss";
+@import "./_icones.scss";
 
 body{
     font-family: "poppins";
@@ -16,10 +16,58 @@ body{
 }
 
 #sale {
-    background-color: red;
     color: white;
     border-radius: 25px;
     border: none;
     height: 50px;
     width: 150px;
+}
+
+.imgservices{
+    height: 200px;
+    width: 90%;
+    position: absolute;
+    z-index: -1;
+}
+
+.titreservices{
+    text-align: center;
+    color: white;
+    padding: 70px;
+    text-decoration: underline;
+}
+
+.imgproducts{
+    height: 250px;
+}
+
+#corpsp2{
+    padding-top: 50px;
+    .container{
+        h3{
+            text-align: center;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.prix{
+    text-decoration: line-through;      
+}
+
+#corpsp3{
+    background-image: url('../../public/img/cta-bg.jpg');
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    div{
+        padding-top: 500px;
+    }
+}
+
+#learnmore{
+    border: none;
+    margin-left: 250px;
 }
