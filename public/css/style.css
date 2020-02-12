@@ -15780,4 +15780,17 @@ body {
   margin: 0 20px;
 }
 
+#slider {
+  height: 500px;
+}
+
+#sale {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  height: 50px;
+  width: 150px;
+}
+
 /*# sourceMappingURL=style.css.map */
