@@ -33,7 +33,6 @@ body{
 .titreservices{
     text-align: center;
     color: white;
-    padding: 70px;
     text-decoration: underline;
 }
 
@@ -70,4 +69,33 @@ body{
 #learnmore{
     border: none;
     margin-left: 250px;
+}
+
+.fas{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#btnlearnmore{
+    margin-left: 225px;
+    margin-bottom: 50px;
+}
+
+#corpsp5{
+    .container-fluid{
+        .row{
+            .col-4{
+                border-color: white;
+                border-style: solid;
+                border-width: 10px;
+            }
+        }
+    }
+}
+
+#footerfin{
+    background-color: black;
+    
 }
