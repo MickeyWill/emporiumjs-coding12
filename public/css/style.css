@@ -15913,21 +15913,16 @@ body {
   font-family: "poppins";
 }
 
-.navbar {
-  overflow: hidden;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-}
-
 .nav-item {
   margin: 0 20px;
 }
 
 #slider {
   height: 500px;
+}
+
+#emporium {
+  color: black;
 }
 
 #sale {
@@ -15938,26 +15933,40 @@ body {
   width: 150px;
 }
 
-.imgservices {
-  height: 200px;
-  width: 90%;
-  position: absolute;
-  z-index: -1;
+#imgservices1 {
+  background-image: url("../../public/img/services/service-1.jpg");
+  height: 250px;
+  border: solid white 5px;
+}
+
+#imgservices2 {
+  background-image: url("../../public/img/services/service-2.jpg");
+  border: solid white 5px;
+}
+
+#imgservices3 {
+  background-image: url("../../public/img/services/slider-3.jpg");
+  border: solid white 5px;
 }
 
 .titreservices {
   text-align: center;
   color: white;
-  padding: 70px;
-  text-decoration: underline;
+  margin-top: 75px;
 }
 
 .imgproducts {
   height: 250px;
 }
 
+hr {
+  background-color: white;
+  height: 3px;
+  width: 400px;
+}
+
 #corpsp2 {
-  padding-top: 50px;
+  padding-top: 75px;
 }
 #corpsp2 .container h3 {
   text-align: center;
