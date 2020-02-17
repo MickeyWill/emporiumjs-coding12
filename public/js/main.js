@@ -68,3 +68,66 @@ function fixnav() {
 }
 
 window.addEventListener('scroll', fixnav); 
+
+
+// CAROUSEL
+
+var btn1 = document.getElementById('btn1');
+var btn2 = document.getElementById('btn2');
+var btn3 = document.getElementById('btn3');
+var btn4 = document.getElementById('btn4');
+
+var sofa = document.getElementById('sofa');
+var gloves = document.getElementById('gloves');
+var bol = document.getElementById('bol');
+var bag = document.getElementById('bag');
+var tshirt = document.getElementById('tshirt');
+var plates = document.getElementById('plates');
+var sofa2 = document.getElementById('sofa2');
+var bed = document.getElementById('bed');
+
+btn1.addEventListener('click', () => {
+    sofa.classList.replace('d-none', 'd-block');
+    gloves.classList.replace('d-none', 'd-block');
+    bol.classList.replace('d-none', 'd-block');
+    bag.classList.replace('d-none', 'd-block');
+    tshirt.classList.replace('d-block', 'd-none');
+    plates.classList.replace('d-block', 'd-none');
+    sofa2.classList.replace('d-block', 'd-none');
+    bed.classList.replace('d-block', 'd-none');
+    
+})
+
+btn2.addEventListener('click', () => {
+    sofa.classList.replace('d-block', 'd-none');
+    gloves.classList.replace('d-none', 'd-block');
+    bol.classList.replace('d-none', 'd-block');
+    bag.classList.replace('d-none', 'd-block');
+    tshirt.classList.replace('d-none', 'd-block');
+    plates.classList.replace('d-block', 'd-none');
+    sofa2.classList.replace('d-block', 'd-none');
+    bed.classList.replace('d-block', 'd-none');
+})
+
+
+btn3.addEventListener('click', () => {
+    sofa.classList.replace('d-block', 'd-none');
+    gloves.classList.replace('d-block', 'd-none');
+    bol.classList.replace('d-none', 'd-block');
+    bag.classList.replace('d-none', 'd-block');
+    tshirt.classList.replace('d-none', 'd-block');
+    plates.classList.replace('d-none', 'd-block');
+    sofa2.classList.replace('d-block', 'd-none');
+    bed.classList.replace('d-block', 'd-none');
+})
+
+btn4.addEventListener('click', () => {
+    sofa.classList.replace('d-block', 'd-none');
+    gloves.classList.replace('d-block', 'd-none');
+    bol.classList.replace('d-block', 'd-none');
+    bag.classList.replace('d-block', 'd-none');
+    tshirt.classList.replace('d-none', 'd-block');
+    plates.classList.replace('d-none', 'd-block');
+    sofa2.classList.replace('d-none', 'd-block');
+    bed.classList.replace('d-none', 'd-block');
+})
